@@ -1,0 +1,40 @@
+{
+  "name": "aws-switcher-2",
+  "version": "1.0.0",
+  "description": "A cross-platform utility for switching between AWS Profiles when using the AWS CLI.",
+  "main": "bin/index.js",
+  "bin": {
+    "aws-switcher-2": "index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamiepeloquin/aws-switcher-2.git"
+  },
+  "keywords": [
+    "aws-cli",
+    "aws-profiles",
+    "nodejs"
+  ],
+  "author": "Jamie Peloquin",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jamiepeloquin/aws-switcher-2/issues"
+  },
+  "homepage": "https://github.com/jamiepeloquin/aws-switcher-2#readme",
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^7.3.1",
+    "aws-sdk": "^2.802.0",
+    "chalk": "^4.1.0",
+    "eslint": "^7.14.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "inquirer": "^7.3.3"
+  }
+}
